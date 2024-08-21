@@ -7,7 +7,7 @@ model_filename = 'trained_model.sav'
 loaded_model = pickle.load(open(model_filename, 'rb'))
 
 # Streamlit app title
-st.title("Salary Prediction - Logistic Regression APP")
+st.title("Salary Prediction APP")
 
 # Input fields for user to provide data
 age = st.number_input("Enter Age", min_value=18, max_value=100, value=30)
